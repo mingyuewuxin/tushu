@@ -1,0 +1,485 @@
+.activation {
+  background-color: #F96D9C; }
+
+.noActivation {
+  background-color: #fff; }
+
+.home {
+  padding-bottom: 2.13333rem; }
+  .home .home_header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2.00533rem;
+    z-index: 100;
+    background-color: white; }
+    .home .home_header .swiper-container {
+      width: 100%; }
+      .home .home_header .swiper-container .swiper-wrapper {
+        width: 100%; }
+        .home .home_header .swiper-container .swiper-wrapper .swiper-slide ul {
+          float: left;
+          width: 100%; }
+          .home .home_header .swiper-container .swiper-wrapper .swiper-slide ul li {
+            float: left;
+            width: 20%;
+            font-size: 0.53333rem;
+            line-height: 2.00533rem;
+            text-align: center; }
+  .home .commodity_bar {
+    width: 100%;
+    padding-top: 2.00533rem;
+    overflow: auto; }
+    .home .commodity_bar .bar_banner {
+      width: 100%; }
+      .home .commodity_bar .bar_banner img {
+        width: 100%; }
+    .home .commodity_bar .subclassification .swiper-slide img {
+      width: 2.56rem;
+      height: 2.56rem; }
+    .home .commodity_bar .subclassification .swiper-slide ul {
+      float: left;
+      width: 100%; }
+      .home .commodity_bar .subclassification .swiper-slide ul li {
+        float: left;
+        width: 30%;
+        margin: 1.5%;
+        text-align: center; }
+        .home .commodity_bar .subclassification .swiper-slide ul li img {
+          width: 2.60267rem;
+          height: 2.60267rem; }
+        .home .commodity_bar .subclassification .swiper-slide ul li .fs33 {
+          font-size: 0.256rem;
+          line-height: 1.10933rem; }
+        .home .commodity_bar .subclassification .swiper-slide ul li .bar_color {
+          color: #FE4B78; }
+    .home .commodity_bar .subclassification .partition {
+      width: 100%;
+      height: 0.72533rem;
+      background-color: #F5F5F5; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2.13333rem;
+  background-color: #F6F6F6;
+  z-index: 200; }
+  footer ul {
+    width: 100%;
+    height: 100%; }
+    footer ul li {
+      float: left;
+      width: 25%;
+      text-align: center;
+      margin-top: 0.42667rem;
+      box-sizing: border-box; }
+      footer ul li a {
+        display: block;
+        width: 100%;
+        text-align: center; }
+        footer ul li a .show img {
+          width: 0.85333rem; }
+        footer ul li a .hide {
+          display: none; }
+          footer ul li a .hide img {
+            width: 0.81067rem; }
+        footer ul li a p {
+          margin-top: 0.384rem;
+          font-size: 0.46933rem;
+          line-height: 0.32rem; }
+
+.parsenage {
+  padding-bottom: 2.13333rem; }
+  .parsenage .parsenage_header {
+    position: fixed;
+    z-index: 100;
+    text-align: center;
+    width: 100%;
+    height: 1.92rem;
+    background-color: white;
+    box-sizing: content-box;
+    font-size: 0.68267rem;
+    line-height: 1.92rem; }
+    .parsenage .parsenage_header .left {
+      float: left;
+      height: 100%;
+      padding-left: 0.72533rem; }
+      .parsenage .parsenage_header .left a {
+        display: block;
+        height: 100%;
+        padding-top: 0.17067rem;
+        box-sizing: border-box; }
+        .parsenage .parsenage_header .left a img {
+          height: 0.81067rem; }
+    .parsenage .parsenage_header .right {
+      float: right;
+      height: 100%;
+      padding-right: 0.42667rem;
+      text-align: center;
+      font-size: 0.512rem; }
+  .parsenage .parsenage_content {
+    width: 100%;
+    overflow: auto;
+    padding-top: 1.92rem; }
+    .parsenage .parsenage_content .banner {
+      width: 100%; }
+      .parsenage .parsenage_content .banner img {
+        width: 100%; }
+    .parsenage .parsenage_content .person {
+      width: 100%;
+      height: 1.87733rem;
+      padding-left: 0.53333rem;
+      padding-right: 0.93867rem;
+      box-sizing: border-box;
+      border-bottom: 1px solid #EEEEEE; }
+      .parsenage .parsenage_content .person .left {
+        float: left;
+        font-size: 0.66133rem;
+        line-height: 1.87733rem; }
+      .parsenage .parsenage_content .person .right {
+        float: right; }
+        .parsenage .parsenage_content .person .right a {
+          display: block;
+          line-height: 1.92rem;
+          font-size: 0.78933rem;
+          color: #F876A2; }
+    .parsenage .parsenage_content .palette {
+      height: 3.328rem;
+      box-sizing: border-box;
+      padding-left: 0.192rem; }
+      .parsenage .parsenage_content .palette ul {
+        float: left;
+        padding-top: 0.36267rem;
+        padding-bottom: 0.36267rem; }
+        .parsenage .parsenage_content .palette ul li {
+          height: 2.624rem;
+          float: left;
+          width: 3.84rem;
+          text-align: center;
+          border-right: 1px solid #F2F2F2;
+          font-size: 0.512rem; }
+          .parsenage .parsenage_content .palette ul li img {
+            height: 0.96rem;
+            margin-bottom: 0.55467rem; }
+        .parsenage .parsenage_content .palette ul li:last-child {
+          border: none; }
+    .parsenage .parsenage_content .recommend {
+      width: 100%;
+      background-color: #F5F5F5;
+      box-sizing: border-box;
+      padding-top: 1.6rem;
+      float: left; }
+      .parsenage .parsenage_content .recommend .between {
+        float: left;
+        width: 100%;
+        padding-left: 0.32rem;
+        padding-right: 0.32rem;
+        padding-bottom: 0.64rem;
+        box-sizing: border-box; }
+        .parsenage .parsenage_content .recommend .between div {
+          float: left;
+          width: 6.4rem;
+          height: 0.21333rem;
+          border-bottom: 1px solid #9A9A9A; }
+        .parsenage .parsenage_content .recommend .between p {
+          padding-left: 0.256rem;
+          padding-right: 0.256rem;
+          float: left;
+          font-size: 0.512rem;
+          color: #9A9A9A; }
+      .parsenage .parsenage_content .recommend ul {
+        clear: both;
+        padding-left: 0.17067rem; }
+        .parsenage .parsenage_content .recommend ul li {
+          float: left;
+          width: 7.68rem;
+          margin: 0.064rem; }
+          .parsenage .parsenage_content .recommend ul li img {
+            width: 100%; }
+          .parsenage .parsenage_content .recommend ul li .fs24 {
+            font-size: 0.512rem;
+            margin-top: 0.64rem;
+            margin-bottom: 0.512rem; }
+            .parsenage .parsenage_content .recommend ul li .fs24 .fs28 {
+              font-size: 0.59733rem;
+              color: #F9719F; }
+
+.car .car_header {
+  position: fixed;
+  z-index: 100;
+  text-align: center;
+  width: 100%;
+  height: 1.92rem;
+  background-color: white;
+  box-sizing: content-box;
+  font-size: 0.64rem;
+  line-height: 1.92rem; }
+  .car .car_header .left {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    padding-left: 0.72533rem; }
+    .car .car_header .left a {
+      display: block;
+      line-height: 1.92rem;
+      font-size: 0.78933rem; }
+.car .car_content {
+  width: 100%;
+  padding-top: 1.92rem;
+  background-color: #F5F5F5;
+  height: 28.37333rem; }
+  .car .car_content .presentation {
+    width: 100%; }
+    .car .car_content .presentation ul {
+      float: left;
+      width: 100%;
+      height: 1.19467rem; }
+      .car .car_content .presentation ul li {
+        float: left;
+        width: 33%;
+        height: 100%;
+        text-align: center;
+        line-height: 1.19467rem;
+        font-size: 0.576rem; }
+    .car .car_content .presentation .details {
+      width: 100%;
+      clear: both;
+      background-color: #ffffff; }
+      .car .car_content .presentation .details .merchant {
+        width: 100%; }
+        .car .car_content .presentation .details .merchant .merchant_header {
+          width: 100%;
+          height: 1.74933rem;
+          box-sizing: border-box;
+          line-height: 1.74933rem;
+          padding-left: 0.61867rem;
+          font-size: 0.55467rem;
+          border-bottom: 1px solid #EBEBEB; }
+          .car .car_content .presentation .details .merchant .merchant_header .radius {
+            width: 0.85333rem;
+            height: 0.85333rem;
+            border: 1px solid black;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 0.42667rem;
+            float: left;
+            position: relative;
+            top: 0.46933rem; }
+        .car .car_content .presentation .details .merchant .merchant_content {
+          margin-top: 0.49067rem;
+          margin-bottom: 0.49067rem;
+          height: 3.904rem; }
+          .car .car_content .presentation .details .merchant .merchant_content .radius {
+            width: 0.85333rem;
+            height: 0.85333rem;
+            border: 1px solid black;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 0.42667rem;
+            float: left;
+            position: relative;
+            top: 1.49333rem;
+            left: 0.53333rem; }
+          .car .car_content .presentation .details .merchant .merchant_content .content {
+            height: 100%;
+            float: left;
+            padding-left: 0.61867rem;
+            padding-bottom: 0.512rem;
+            box-sizing: border-box;
+            border-bottom: 1px solid #F0F0F0; }
+            .car .car_content .presentation .details .merchant .merchant_content .content .imgbox {
+              float: left;
+              height: 100%;
+              width: 3.84rem;
+              background-color: #F5F5F5; }
+            .car .car_content .presentation .details .merchant .merchant_content .content .textbox {
+              float: left;
+              position: relative;
+              height: 100%;
+              padding-left: 0.49067rem;
+              width: 9.408rem; }
+              .car .car_content .presentation .details .merchant .merchant_content .content .textbox .fs27 {
+                font-size: 0.55467rem; }
+              .car .car_content .presentation .details .merchant .merchant_content .content .textbox .fs19 {
+                margin-top: 0.40533rem;
+                color: #A0A0A0; }
+              .car .car_content .presentation .details .merchant .merchant_content .content .textbox .btn {
+                position: absolute;
+                height: 1.32267rem;
+                bottom: 0;
+                font-size: 0.64rem;
+                line-height: 1.32267rem;
+                color: #F96D9C;
+                padding-right: 0.512rem; }
+                .car .car_content .presentation .details .merchant .merchant_content .content .textbox .btn .btn_box {
+                  float: right;
+                  height: 100%;
+                  margin-left: 1.408rem; }
+                  .car .car_content .presentation .details .merchant .merchant_content .content .textbox .btn .btn_box div {
+                    box-sizing: border-box;
+                    width: 1.70667rem;
+                    height: 100%;
+                    text-align: center;
+                    float: left;
+                    border: 1px solid black;
+                    line-height: 1.32267rem; }
+                  .car .car_content .presentation .details .merchant .merchant_content .content .textbox .btn .btn_box input {
+                    float: left;
+                    height: 95%;
+                    width: 2.13333rem;
+                    border: 1px solid black;
+                    border-right: none;
+                    border-left: none;
+                    padding-bottom: -10px; }
+    .car .car_content .presentation .settlement {
+      position: fixed;
+      bottom: 2.13333rem;
+      background-color: #fff;
+      z-index: 100;
+      width: 100%;
+      height: 2.13333rem;
+      line-height: 2.13333rem;
+      font-size: 0.64rem;
+      padding-left: 0.576rem;
+      box-sizing: border-box; }
+      .car .car_content .presentation .settlement .left {
+        float: left; }
+        .car .car_content .presentation .settlement .left .radius {
+          width: 0.85333rem;
+          height: 0.85333rem;
+          border: 1px solid black;
+          border-radius: 50%;
+          display: inline-block;
+          margin-right: 0.42667rem;
+          position: relative;
+          top: 0.21333rem; }
+      .car .car_content .presentation .settlement .right {
+        float: right; }
+        .car .car_content .presentation .settlement .right span {
+          display: inline-block;
+          width: 3.94667rem;
+          height: 100%;
+          text-align: center;
+          line-height: 2.13333rem;
+          font-size: 32;
+          color: #F96D9C; }
+        .car .car_content .presentation .settlement .right .btn {
+          display: inline-block;
+          width: 3.84rem;
+          height: 100%;
+          background-color: #F96D9C;
+          color: white;
+          font-size: 0.68267rem;
+          line-height: 2.13333rem;
+          text-align: center; }
+
+.classify {
+  width: 100%; }
+  .classify .classify_header {
+    position: fixed;
+    z-index: 100;
+    text-align: center;
+    width: 100%;
+    height: 1.92rem;
+    background-color: white;
+    box-sizing: content-box;
+    font-size: 0.68267rem;
+    line-height: 1.92rem; }
+    .classify .classify_header .left {
+      float: left;
+      height: 100%;
+      padding-left: 0.72533rem; }
+      .classify .classify_header .left a {
+        display: block;
+        line-height: 1.92rem;
+        font-size: 0.512rem;
+        height: 100%; }
+        .classify .classify_header .left a img {
+          height: 0.81067rem;
+          vertical-align: middle; }
+    .classify .classify_header .right {
+      float: right;
+      height: 100%;
+      padding-right: 0.42667rem;
+      text-align: center;
+      font-size: 0.512rem; }
+  .classify #swiper1 {
+    padding-top: 1.92rem;
+    background-color: #F5F5F5; }
+    .classify #swiper1 .swiper-wrapper .swiper-slide {
+      text-align: center;
+      height: 1.70667rem;
+      line-height: 1.70667rem; }
+  .classify .banner {
+    width: 100%; }
+    .classify .banner .swiper-container {
+      width: 100%; }
+      .classify .banner .swiper-container .swiper-wrapper {
+        width: 100%; }
+        .classify .banner .swiper-container .swiper-wrapper .swiper-slide {
+          width: 100%;
+          float: left; }
+          .classify .banner .swiper-container .swiper-wrapper .swiper-slide img {
+            width: 100%; }
+  .classify .classify_referral {
+    width: 100%; }
+    .classify .classify_referral .referral {
+      width: 100%; }
+      .classify .classify_referral .referral .referral_header {
+        width: 100%;
+        height: 2.496rem;
+        text-align: center;
+        background-color: #F5F5F5;
+        padding-top: 0.64rem;
+        box-sizing: border-box;
+        clear: both; }
+        .classify .classify_referral .referral .referral_header .fs32 {
+          font-size: 0.68267rem;
+          font-weight: 300; }
+        .classify .classify_referral .referral .referral_header .fs20 {
+          margin-top: 0.29867rem;
+          font-size: 0.42667rem;
+          color: #7B7B7B; }
+      .classify .classify_referral .referral .referral_content {
+        width: 100%;
+        background-color: #F5F5F5;
+        box-sizing: border-box;
+        float: left; }
+        .classify .classify_referral .referral .referral_content .between {
+          float: left;
+          width: 100%;
+          padding-left: 0.32rem;
+          padding-right: 0.32rem;
+          padding-bottom: 0.64rem; }
+          .classify .classify_referral .referral .referral_content .between div {
+            float: left;
+            width: 6.4rem;
+            height: 0.21333rem;
+            border-bottom: 1px solid #D5D5D5; }
+          .classify .classify_referral .referral .referral_content .between p {
+            padding-left: 0.256rem;
+            padding-right: 0.256rem;
+            float: left;
+            font-size: 0.46933rem; }
+        .classify .classify_referral .referral .referral_content ul {
+          clear: both;
+          padding-left: 0.17067rem; }
+          .classify .classify_referral .referral .referral_content ul li {
+            float: left;
+            width: 7.68rem;
+            margin: 0.064rem;
+            background-color: #fff;
+            text-align: center; }
+            .classify .classify_referral .referral .referral_content ul li img {
+              width: 7.27467rem;
+              height: 7.33867rem; }
+            .classify .classify_referral .referral .referral_content ul li .fs26 {
+              font-size: 0.55467rem;
+              margin-top: 0.64rem;
+              margin-bottom: 0.512rem; }
+  .classify .qingli {
+    height: 1.92rem;
+    clear: both; }
